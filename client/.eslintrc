@@ -1,0 +1,18 @@
+{
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "no-console": "off",
+        "quotes": ["error", "double"]
+    },
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true,
+        "amd": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended", 
+        "plugin:react/recommended", 
+        "plugin:prettier/recommended"]
+}
